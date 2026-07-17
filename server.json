@@ -1,0 +1,26 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.LimzoCom/limzo-mcp",
+  "description": "MCP server for Limzo — read-only public Telegram group statistics (leaderboards, activity, levels, moderation summaries) from limzo.com. Tools: list_groups, get_group_stats, get_global_stats.",
+  "repository": {
+    "url": "https://github.com/LimzoCom/limzo-mcp",
+    "source": "github"
+  },
+  "version": "1.0.1",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "limzo-mcp",
+      "version": "1.0.1",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://limzo.com/api/public/mcp"
+    }
+  ]
+}
