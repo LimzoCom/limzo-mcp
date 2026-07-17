@@ -1,16 +1,40 @@
 {
   "name": "limzo-mcp",
-  "version": "1.0.1",
+  "version": "1.2.0",
   "description": "MCP server for Limzo — read-only public Telegram group statistics (leaderboards, activity, levels, moderation summaries) from limzo.com. Tools: list_groups, get_group_stats, get_global_stats.",
-  "bin": { "limzo-mcp": "bin/limzo-mcp.js" },
-  "files": ["bin", "README.md", "LICENSE"],
-  "keywords": ["mcp", "model-context-protocol", "telegram", "analytics", "group-stats", "limzo", "community", "chatbot"],
+  "bin": {
+    "limzo-mcp": "bin/limzo-mcp.js"
+  },
+  "files": [
+    "bin",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "telegram",
+    "analytics",
+    "group-stats",
+    "limzo",
+    "community",
+    "chatbot"
+  ],
   "author": "Limzo <info@limzo.com> (https://limzo.com)",
   "license": "MIT",
   "homepage": "https://limzo.com/docs/",
-  "repository": { "type": "git", "url": "git+https://github.com/LimzoCom/limzo-mcp.git" },
-  "bugs": { "url": "https://github.com/LimzoCom/limzo-mcp/issues" },
-  "engines": { "node": ">=18" },
-  "dependencies": { "mcp-remote": "^0.1.38" },
-  "mcpName": "io.github.LimzoCom/limzo-mcp"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LimzoCom/limzo-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LimzoCom/limzo-mcp/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "mcp-remote": "^0.1.38"
+  },
+  "mcpName": "com.limzo/telegram-group-stats"
 }
