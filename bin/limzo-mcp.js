@@ -9,7 +9,7 @@
 import { StdioServerTransport } from '@modelcontextprotocol/sdk/server/stdio.js';
 import { StreamableHTTPClientTransport } from '@modelcontextprotocol/sdk/client/streamableHttp.js';
 
-const ENDPOINT = process.env.LIMZO_MCP_ENDPOINT || 'https://limzo.com/api/public/mcp';
+const ENDPOINT = 'https://limzo.com/api/public/mcp';
 
 function report(err) {
   process.stderr.write(`limzo-mcp: ${err instanceof Error ? err.stack || err.message : String(err)}\n`);
