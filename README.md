@@ -79,7 +79,7 @@ A Telegram community bot: public shareable stats pages, member levels/badges/ach
 
 ## Listed on
 
-Official [MCP Registry](https://registry.modelcontextprotocol.io) (`com.limzo/telegram-group-stats`) · [Glama](https://glama.ai/mcp/servers/@LimzoCom/limzo-mcp) · [Smithery](https://smithery.ai) · [npm](https://www.npmjs.com/package/limzo-mcp)
+Official [MCP Registry](https://registry.modelcontextprotocol.io) (`com.limzo/telegram-group-stats`) · [Glama](https://glama.ai/mcp/servers/LimzoCom/limzo-mcp) · [Smithery](https://smithery.ai) · [npm](https://www.npmjs.com/package/limzo-mcp)
 
 ## License
 
