@@ -4,7 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
 [![MCP](https://img.shields.io/badge/Model_Context_Protocol-server-blue.svg)](https://modelcontextprotocol.io)
 
-MCP (Model Context Protocol) server for **[Limzo](https://limzo.com)** — read-only public Telegram group statistics: leaderboards, activity trends, member levels, weekly award history, and moderation summaries for any group with a public Limzo stats page.
+MCP (Model Context Protocol) server for **[Limzo](https://limzo.com)**, the Telegram anti-spam and moderation bot — read-only public Telegram group statistics: leaderboards, activity trends, member levels, weekly award history, and moderation summaries for any group with a public Limzo stats page.
 
 No API key, no account. Everything served is already public at `limzo.com/s/<slug>` — payloads never include verbatim member messages.
 
